@@ -10,7 +10,6 @@ A collection of practical Python examples for learning how to develop serverless
 functions_gcp/
 ├── hello_function_gcp/         # Basic HTTP function: hello world
 ├── blob_function_gcp/          # Function triggered by Cloud Storage events
-├── blob_upload_cloudrun/       # File upload to Cloud Storage via a web interface (Cloud Run)
 └── parkings_function_gcp/      # HTTP function that queries parking data
 ```
 
@@ -51,17 +50,6 @@ A function that is automatically triggered when a file is uploaded to a **Google
 **Trigger:** Cloud Storage
 
 See the deployment instructions inside the `blob_function_gcp/` folder.
-
----
-
-### `blob_upload_cloudrun`
-
-A small web application (HTML + Python) deployed on **Cloud Run** that allows uploading files to a Cloud Storage bucket through a browser interface.
-
-**Runtime:** Cloud Run  
-**Key concepts:** file upload, Cloud Storage integration, CORS, containerized deployment
-
-See the deployment instructions inside the `blob_upload_cloudrun/` folder.
 
 ---
 
