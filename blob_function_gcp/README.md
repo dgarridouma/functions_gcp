@@ -20,11 +20,11 @@ gcloud services enable cloudbuild.googleapis.com
 ## Step 2 — Create the buckets
 
 ```
-gsutil mb -l europe-west1 gs://mipath
-gsutil mb -l europe-west1 gs://mipath-output
+gsutil mb -l europe-west1 gs://miruta
+gsutil mb -l europe-west1 gs://miruta-output
 ```
 
-Bucket names are global in GCP. If `mipath` already exists in another project it will fail — use a more specific name.
+Bucket names are global in GCP. If `miruta` already exists in another project it will fail — use a more specific name.
 
 ---
 
